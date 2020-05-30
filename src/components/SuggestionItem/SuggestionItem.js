@@ -10,7 +10,7 @@ const SuggestionItem = ({ name, query, onSelect }) => {
     return (
       <li className={styles.container} onClick={() => onSelect(name)}>
         {before}
-        <span className={styles.bold}>{bold}</span>
+        <b className={styles.bold}>{bold}</b>
         {after}
       </li>
     );
