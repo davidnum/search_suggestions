@@ -1,0 +1,11 @@
+.container {
+  cursor: pointer;
+  font-size: 11pt;
+  color: gray;
+  margin: 8px 0;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+}

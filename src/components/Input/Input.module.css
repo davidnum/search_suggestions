@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+  height: 25px;
+  border: 1px solid lightgray;
+  background-color: #fafafa;
+  border-radius: 4px;
+}
+
+.container:focus-within {
+  border: 1px solid #407cee;
+  background-color: white;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #fafafa;
+  width: 100%;
+  font-size: 12 pt;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  background-color: white;
+}
